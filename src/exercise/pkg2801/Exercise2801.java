@@ -1,6 +1,8 @@
 
 package exercise.pkg2801;
 
+import java.util.Arrays;
+
 
 
 public class Exercise2801 {
@@ -8,7 +10,7 @@ public class Exercise2801 {
     int[] grade = {25,34,37,45,51,64,78,40,74,34};
     
     calcAvg(grade);
-    
+    calcMax(grade);
     }
     public static void calcAvg(int[] input) 
     {
@@ -24,6 +26,13 @@ public class Exercise2801 {
 	System.out.println("Average of grades : "+average);
 //       
     }
-    System.out.println("hello world")
-	   System.out.println("Syste177961ice1")
+    public static void calcMax(int[] input2){
+        
+        int max = Arrays.stream(input2).max().getAsInt(); 
+        System.out.println("Largest number in array is " +max);
+//        
+    }
+      
+            
+            
 }
