@@ -24,5 +24,6 @@ public class Exercise2801 {
 	System.out.println("Average of grades : "+average);
 //       
     }
-    
+    System.out.println("hello world")
+	   System.out.println("Syste177961ice1")
 }
